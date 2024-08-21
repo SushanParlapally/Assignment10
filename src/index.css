@@ -1,0 +1,42 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  margin: 0;
+  padding: 0;
+  background: url('moviebg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #000000;
+}
+
+.container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Light semi-transparent background for better readability */
+  border-radius: 12px; /* Rounded corners */
+  margin: 20px auto;
+  max-width: 1200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+h1 {
+  text-align: center;
+  color: #000000; /* Black color for text */
+  margin-bottom: 20px;
+  font-size: 2.5rem; /* Larger font size */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); /* Shadow for better readability */
+}
+
+button {
+  background-color: #22e6e3; /* Teal color */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Rounded corners */
+  padding: 12px 24px; /* Larger padding */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  margin-bottom: 15px; /* Space below buttons */
+}
+
+button:hover {
+  background-color: #1db9b4; /* Slightly darker teal for hover effect */
+  transform: scale(1.05); /* Slight scale effect */
+}

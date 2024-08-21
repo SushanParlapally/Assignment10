@@ -1,0 +1,139 @@
+/* App.css */
+
+/* General Form Container Styles */
+.form-container {
+  width: 45%; /* Relative width */
+  max-width: 500px; /* Max width for larger screens */
+  margin: 20px auto; /* Center alignment */
+  padding: 20px;
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  box-sizing: border-box; /* Include padding in width and height */
+}
+
+/* Specific Form Styles */
+.form1 {
+  background-color: rgba(255, 87, 34, 0.9); /* Vibrant red with transparency */
+}
+
+.form2 {
+  background-color: rgba(255, 193, 7, 0.9); /* Bright yellow with transparency */
+}
+
+.form3 {
+  background-color: rgba(52, 152, 219, 0.9); /* Bright blue with transparency */
+}
+
+.form4 {
+  background-color: rgba(46, 204, 113, 0.9); /* Fresh green with transparency */
+}
+
+/* Hover Effects */
+.form-container:hover {
+  background-color: rgba(255, 255, 255, 0.8); /* More transparent on hover */
+  transform: scale(1.02); /* Slight scale effect */
+}
+
+/* Input Styles */
+input {
+  background-color: rgba(255, 255, 255, 0.9); /* Light background for inputs */
+  border: 1px solid #ddd; /* Light border */
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  width: calc(100% - 24px); /* Full width minus padding */
+  box-sizing: border-box; /* Include padding in width */
+}
+
+/* Button Styles */
+button {
+  background-color: #e67e22; /* Orange color */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-right: 10px; /* Space between buttons */
+  margin-bottom: 15px; /* Space below buttons */
+}
+
+button:hover {
+  background-color: #d35400; /* Darker orange for hover effect */
+  transform: scale(1.05); /* Slight scale effect */
+}
+
+/* Movie List Styles */
+.movie-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.movie-list li {
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white */
+  border: 2px solid #f39c12; /* Vibrant gold border */
+  border-radius: 12px; /* Rounded corners */
+  margin: 10px 0;
+  padding: 15px; /* Increased padding for better spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.movie-list li:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Lighten background on hover */
+}
+
+.movie-list li img {
+  max-width: 100px;
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+.movie-list li button {
+  background-color: #e67e22; /* Orange color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.movie-list li button:hover {
+  background-color: #d35400; /* Darker orange for hover effect */
+}
+
+/* Favorite List Styles */
+.favorite-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.favorite-list li {
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent white */
+  border: 2px solid #f39c12; /* Vibrant gold border */
+  border-radius: 12px; /* Rounded corners */
+  margin: 10px 0;
+  padding: 15px; /* Increased padding for better spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.favorite-list li:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Lighten background on hover */
+}
+
+.favorite-list li img {
+  max-width: 100px;
+  border-radius: 8px; /* Rounded corners for images */
+}
+
+.favorite-list li button {
+  background-color: #e67e22; /* Orange color */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.favorite-list li button:hover {
+  background-color: #d35400; /* Darker orange for hover effect */
+}

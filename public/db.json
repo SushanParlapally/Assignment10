@@ -1,0 +1,17 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "image": "./images/inception.jpeg"
+    },
+    {
+      "id": "2",
+      "title": "The Matrix",
+      "genre": "Action",
+      "image": "./images/The Matrix.jpeg"
+    }
+  ],
+  "favorites": []
+}
